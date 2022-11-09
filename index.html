@@ -6,96 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heart</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: #070620;
-        }
-
-        .wrapper {
-            position: relative;
-            width: 300px;
-            height: 300px;
-            transform-style: preserve-3d;
-            transform: rotateX(-30deg);
-            animation: animated 4s linear infinite;
-        }
-
-        .wrapper::before {
-            position: relative;
-            width: 300px;
-            height: 300px;
-            transform-style: preserve-3d;
-            transform: rotateX(-30deg);
-            animation: animated 4s linear infinite;
-        }
-
-        @keyframes animated {
-            0% {
-                transform: rotateX(-30deg) rotateY(0deg);
-            }
-
-            100% {
-                transform: rotateX(-30deg) rotateY(360deg);
-            }
-        }
-
-        .wrapper div {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            transform-style: preserve-3d;
-        }
-
-        .wrapper div span {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(#fe6969, #ff5fa9);
-            transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
-        }
-
-        .top {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 300px;
-            height: 300px;
-            background: #ff6060;
-            transform: rotateX(90deg) translateZ(150px);
-        }
-
-        .top::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 300px;
-            height: 300px;
-            background: #fb3f98;
-            transform: translateZ(-380px);
-            filter: blur(20px);
-            box-shadow: 0 0 120px rgb(251, 0, 67),
-                0 0 200px rgb(255, 99, 135),
-                0 0 300px rgb(252, 137, 172),
-                /* 0 0 400px rgb(255, 127, 187), */
-                /* 0 0 500px rgb(255, 160, 188); */
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -103,12 +14,13 @@
         <div class="top"></div>
         <div>
             <span style="--i:0; display: flex;justify-content: center;align-items: center;">
-                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 750">
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 750" style="width: 300px">
                     <defs>
                         <style>
                             .cls-1 {
                                 fill: #ce033d;
-                            }
+                            };
+                
                         </style>
                     </defs>
                     <path class="cls-1"
@@ -120,7 +32,7 @@
                 </svg>
             </span>
             <span style="--i:1;display: flex;justify-content: center;align-items: center;">
-                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 750">
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 750" style="width: 300px">
                     <defs>
                         <style>
                             .cls-1 {
@@ -137,7 +49,7 @@
                 </svg>
             </span>
             <span style="--i:2;display: flex;justify-content: center;align-items: center;">
-                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 750">
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 750" style="width: 300px">
                     <defs>
                         <style>
                             .cls-1 {
@@ -154,11 +66,11 @@
                 </svg>
             </span>
             <span style="--i:3;display: flex;justify-content: center;align-items: center;">
-                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 750">
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 750" style="width: 300px">
                     <defs>
                         <style>
                             .cls-1 {
-                                fill: #ce033d;
+                                fill: #d0004c;
                             }
                         </style>
                     </defs>
